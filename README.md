@@ -2,8 +2,8 @@
 Learn how to create a basic REST response using *Java* with *Spring Boot*.
 
 ## Pre-requirements
-[] Your preferred Java IDE
-[] Internet connection
++ Your preferred Java IDE
++ Internet connection
 
 ## What's Spring?
 Essentially [Spring](https://spring.io/why-spring) is a framework for [Inversion of Control (IoC)](https://en.wikipedia.org/wiki/Inversion_of_control), and usually it comes with the use of the pattern of [Dependecy Injection (DI)](https://en.wikipedia.org/wiki/Dependency_injection).
@@ -16,7 +16,7 @@ In software engineering, **Inversion of Control (IoC)** is a programming princip
 ## What's DI?
 [Dependency Injection (DI)](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/) is an IoC technique in wich an object receives other object that it depends on. These other objects are called dependencies.
 
-## Creating your first Java Spring REST responses
+## General steps to create the REST example
 1. Go to [start.spring.io](https://start.spring.io/) and create a new Spring project with the *Spring Web* dependency.
 2. Open the downloaded project in your preferred IDE.
 3. Using the next annotations, create the REST example:
@@ -26,3 +26,5 @@ In software engineering, **Inversion of Control (IoC)** is a programming princip
    Mapping*, *@PutMapping*, *@DeleteMapping*, etc...)
    + **@RequestParam(value="name", defaultValue="unnamed"):** This annotation is telling spring to expect a `name` value in the request.
 4. Try the app with `/.mvnw spring-boot:run`, you can build the JAR with `./mvnw clean package`.   
+
+## Step-by-step REST example
